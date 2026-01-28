@@ -1,0 +1,55 @@
+What is HTML:(Hyper Text Markup Language)
+Html is core evry website/webapp.
+Html is used develope the structure of the web page
+
+who created this HTML:
+Tim bernerce lee
+
+versions:
+sarted 1989
+html 1.0 -1991
+html 2.0 -1995
+html 3.0- 1997
+html 4.0 -1999
+xml version 1.0-2000
+html 5.0 -2014
+
+
+stureture of html 5
+<!Doctype Html>--this perticuler page is using the html5 version 
+<html>
+<head>
+   <title></title>
+</head>
+<body>
+element
+</body>
+</html>
+
+tags:
+<tag/>
+paired tags
+unpaired tags
+opening tag:    closing tag
+<tag>.           </tag>
+self-closing tags/ unpaired tags
+<tag/>
+
+element:
+<openingtag>content</closingtag>
+two types elemnts:
+1.inline element
+2. block element
+
+
+fileextension:
+.word
+.ppt
+.pdf
+.xls
+.jpg
+.Text
+.java
+.py
+.html
+
