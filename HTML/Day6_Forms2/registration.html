@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sign Up form</h1>
+    <form action="#" method="get" enctype="multipart/form-data">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" required placeholder="Enter your first name">
+        <br>
+        <label for="mname">Middle Name</label>
+        <input type="text" id="mname" placeholder="Enter you middel name">
+        <br>
+        <label for="lname">Lastname</label>
+        <input type="text" id="lname" required placeholder="Enter your last name">
+        <br>
+        <label for="email">Email</label>
+        <input type="email" id="email" required placeholder="example@domin.com">
+        <br>
+        <label for="phone">Contact</label>
+        <input type="tel" id="phone" required placeholder="+91">
+        <br>
+        <label for="dob">Date of Brith</label>
+        <input type="date" required>
+        <br>
+        <label for="gender">Select Gender</label>
+        <br>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender">
+        <label for="others">Others</label>
+        <input type="radio" id="others" name="gender">
+        <br>
+        <label for="study">Graduation Details</label>
+        <br>
+        <label for="deg">Degree</label>
+        <input type="checkbox" id="deg">
+        <label for="b.tech">B.Tech</label>
+        <input type="checkbox" id="b.tech">
+        <label for="mba">MBA</label>
+        <input type="checkbox" id="mba">
+        <label for="m.tech">M.Tech</label>
+        <input type="checkbox" id="m.tech">
+        <br>
+        <label for="state">Select State</label>
+        <select name="state" id="state">
+            <option value="optional">----Select State-----</option>
+            <option value="AP">Andhra Pradesh</option>
+            <option value="TG">Telengana</option>
+            <option value="KA">Karnataka</option>
+        </select>
+        <br>
+        <label for="pass">Password</label>
+        <input type="password" id="pass">
+        <br>
+        <label for="cpass">Confirm Password</label>
+        <input type="password" id="cpass">
+        <br>
+        <label for="upload">Upload Image</label>
+        <input type="file">
+        <br>
+        <input type="submit">
+        <input type="reset">
+        <input type="button" value="create">
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <h1>Login Form</h1>
+    <form action="#" method="get" enctype="multipart/form-data">
+        <label for="uname">Username</label>
+        <input type="text" placeholder="username or email" required>
+        <br>
+        <label for="pass">password</label>
+        <input type="password" placeholder="Enter your password" required>
+        <br>
+        <input type="submit">
+        <button type="submit">login</button>
+    </form>
+</body>
+</html>
